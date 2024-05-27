@@ -1,6 +1,23 @@
-age= int(input("Enter you age: "))
-student= input("Are you a student? (yes/no): ")
-if age <= 12 or (13<= age <=18 and student== 'yes'):
-    print("You are eligible for a discount on the movie ticket.")
-else:
-    print("You are not eligible for a discount on the movie ticket.") 
+# AND operaator
+# example1
+x = 5
+print(x > 3 and x < 10)
+# example2
+y = 12
+print(y > 10 and y % 5 == 0 )
+
+# OR operator
+# example1
+x = 5
+print(x < 3 or x > 10)
+# example2
+y = 12
+print(y < 10 or y % 2 == 0 )
+
+# NOT operator
+# example1
+x = 5
+print(not(x > 3 and x < 10))
+# example2
+y = 12
+print(not(y > 10 and y % 5 == 0))
